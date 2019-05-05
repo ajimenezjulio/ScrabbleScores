@@ -8,24 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		F4B9086F227E70C800B7956D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9086E227E70C800B7956D /* AppDelegate.swift */; };
-		F4B90871227E70C800B7956D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B90870227E70C800B7956D /* ViewController.swift */; };
+		F4B90871227E70C800B7956D /* ScrabbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B90870227E70C800B7956D /* ScrabbleViewController.swift */; };
 		F4B90874227E70C800B7956D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B90872227E70C800B7956D /* Main.storyboard */; };
 		F4B90876227E70CB00B7956D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B90875227E70CB00B7956D /* Assets.xcassets */; };
 		F4B90879227E70CB00B7956D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B90877227E70CB00B7956D /* LaunchScreen.storyboard */; };
+		F4B90884227E783300B7956D /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B90883227E783300B7956D /* HelperFunctions.swift */; };
+		F4B9088C227E7AFD00B7956D /* ScrabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9088B227E7AFD00B7956D /* ScrabbleTests.swift */; };
+		F4B90894227E7B7600B7956D /* Scrabble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B90893227E7B7600B7956D /* Scrabble.swift */; };
+		F4B90896227E809700B7956D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B90895227E809700B7956D /* Constants.swift */; };
+		F4B9089C227E9BAC00B7956D /* Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9089B227E9BAC00B7956D /* Bindings.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4B9088E227E7AFD00B7956D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B90863227E70C800B7956D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B9086A227E70C800B7956D;
+			remoteInfo = Scrabble;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F4B9086B227E70C800B7956D /* Scrabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B9086E227E70C800B7956D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4B90870227E70C800B7956D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B90870227E70C800B7956D /* ScrabbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleViewController.swift; sourceTree = "<group>"; };
 		F4B90873227E70C800B7956D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4B90875227E70CB00B7956D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B90878227E70CB00B7956D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B9087A227E70CB00B7956D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B90883227E783300B7956D /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F4B90889227E7AFD00B7956D /* ScrabbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrabbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B9088B227E7AFD00B7956D /* ScrabbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleTests.swift; sourceTree = "<group>"; };
+		F4B9088D227E7AFD00B7956D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B90893227E7B7600B7956D /* Scrabble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrabble.swift; sourceTree = "<group>"; };
+		F4B90895227E809700B7956D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F4B9089B227E9BAC00B7956D /* Bindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4B90868227E70C800B7956D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B90886227E7AFD00B7956D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B9086D227E70C800B7956D /* Scrabble */,
+				F4B9088A227E7AFD00B7956D /* ScrabbleTests */,
 				F4B9086C227E70C800B7956D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B9086B227E70C800B7956D /* Scrabble.app */,
+				F4B90889227E7AFD00B7956D /* ScrabbleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +86,58 @@
 			isa = PBXGroup;
 			children = (
 				F4B9086E227E70C800B7956D /* AppDelegate.swift */,
-				F4B90870227E70C800B7956D /* ViewController.swift */,
+				F4B9089A227E9B9C00B7956D /* CustomControls */,
+				F4B90880227E719500B7956D /* ViewModels */,
+				F4B90881227E77FD00B7956D /* ViewControllers */,
+				F4B90882227E781500B7956D /* Helpers */,
 				F4B90872227E70C800B7956D /* Main.storyboard */,
 				F4B90875227E70CB00B7956D /* Assets.xcassets */,
 				F4B90877227E70CB00B7956D /* LaunchScreen.storyboard */,
 				F4B9087A227E70CB00B7956D /* Info.plist */,
 			);
 			path = Scrabble;
+			sourceTree = "<group>";
+		};
+		F4B90880227E719500B7956D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4B90893227E7B7600B7956D /* Scrabble.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4B90881227E77FD00B7956D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4B90870227E70C800B7956D /* ScrabbleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F4B90882227E781500B7956D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F4B90883227E783300B7956D /* HelperFunctions.swift */,
+				F4B90895227E809700B7956D /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F4B9088A227E7AFD00B7956D /* ScrabbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B9088B227E7AFD00B7956D /* ScrabbleTests.swift */,
+				F4B9088D227E7AFD00B7956D /* Info.plist */,
+			);
+			path = ScrabbleTests;
+			sourceTree = "<group>";
+		};
+		F4B9089A227E9B9C00B7956D /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				F4B9089B227E9BAC00B7956D /* Bindings.swift */,
+			);
+			path = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +160,24 @@
 			productReference = F4B9086B227E70C800B7956D /* Scrabble.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4B90888227E7AFD00B7956D /* ScrabbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B90890227E7AFD00B7956D /* Build configuration list for PBXNativeTarget "ScrabbleTests" */;
+			buildPhases = (
+				F4B90885227E7AFD00B7956D /* Sources */,
+				F4B90886227E7AFD00B7956D /* Frameworks */,
+				F4B90887227E7AFD00B7956D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B9088F227E7AFD00B7956D /* PBXTargetDependency */,
+			);
+			name = ScrabbleTests;
+			productName = ScrabbleTests;
+			productReference = F4B90889227E7AFD00B7956D /* ScrabbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +190,10 @@
 				TargetAttributes = {
 					F4B9086A227E70C800B7956D = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					F4B90888227E7AFD00B7956D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F4B9086A227E70C800B7956D;
 					};
 				};
 			};
@@ -113,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				F4B9086A227E70C800B7956D /* Scrabble */,
+				F4B90888227E7AFD00B7956D /* ScrabbleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +227,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4B90887227E7AFD00B7956D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +241,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B90871227E70C800B7956D /* ViewController.swift in Sources */,
+				F4B90896227E809700B7956D /* Constants.swift in Sources */,
+				F4B90871227E70C800B7956D /* ScrabbleViewController.swift in Sources */,
 				F4B9086F227E70C800B7956D /* AppDelegate.swift in Sources */,
+				F4B90884227E783300B7956D /* HelperFunctions.swift in Sources */,
+				F4B90894227E7B7600B7956D /* Scrabble.swift in Sources */,
+				F4B9089C227E9BAC00B7956D /* Bindings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B90885227E7AFD00B7956D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B9088C227E7AFD00B7956D /* ScrabbleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4B9088F227E7AFD00B7956D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B9086A227E70C800B7956D /* Scrabble */;
+			targetProxy = F4B9088E227E7AFD00B7956D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F4B90872227E70C800B7956D /* Main.storyboard */ = {
@@ -283,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJZT2TBU7K;
 				INFOPLIST_FILE = Scrabble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJZT2TBU7K;
 				INFOPLIST_FILE = Scrabble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +437,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4B90891227E7AFD00B7956D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrabbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliocesar.ScrabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrabble.app/Scrabble";
+			};
+			name = Debug;
+		};
+		F4B90892227E7AFD00B7956D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrabbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliocesar.ScrabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrabble.app/Scrabble";
 			};
 			name = Release;
 		};
@@ -329,6 +495,15 @@
 			buildConfigurations = (
 				F4B9087E227E70CB00B7956D /* Debug */,
 				F4B9087F227E70CB00B7956D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B90890227E7AFD00B7956D /* Build configuration list for PBXNativeTarget "ScrabbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B90891227E7AFD00B7956D /* Debug */,
+				F4B90892227E7AFD00B7956D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
